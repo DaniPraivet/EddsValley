@@ -1,17 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <map version="1.10" tiledversion="1.11.2" orientation="orthogonal" renderorder="right-down" compressionlevel="0" width="36" height="31" tilewidth="16" tileheight="16" infinite="0" nextlayerid="13" nextobjectid="593">
  <properties>
-  <property name="DayTiles">Front 30 1 256 Front 30 2 288 Front 32 1 256 Front 32 2 288 
-Front 5 9 256 Front 5 10 288 Front 8 9 256 Front 8 10 288 
-Front 15 1 256 Front 15 2 288
-Front 15 30 256 Front 15 31 288 Front 18 13 225 Front 18 14 257 Front 21 13 225 Front 21 14 257 Back 29 5 671 Back 29 6 703 Back 18 17 226 Back 21 17 258 Back 21 18 258</property>
+  <property name="DayTiles" value="Front 29 5 1253 Front 29 6 1285 Back 18 17 294 Back 18 18 262 Back 21 17 262 Back 21 18 262 Back 8 12 226 Back 8 13 258"/>
   <property name="Doors" value="27 12 1 120 16 12 1 120 22 20 1 120"/>
-  <property name="NightTiles">Front 30 1 1253 Front 30 2 1254 Front 32 1 1253 Front 32 2 1254 
-Front 5 9 1253 Front 5 10 1254 Front 8 9 1253 Front 8 10 1254 
-Front 15 1 1253 Front 15 2 1254
-Front 29 5 1253 Front 29 6 1285 Front 42 6 1222 Front 42 7 1254 Front 45 6 1222 Front 45 7 1254 Back 18 13 574 Back 18 14 606 Back 21 13 124 Back 21 14 124 Back 18 17 294 Back 18 18 262 Back 21 17 262 Back 21 18 262</property>
+  <property name="NightTiles" value="Front 8 9 1253 Front 8 10 1285 Front 5 9 1253 Front 5 10 1285 Front 15 1 1253 Front 15 2 1285 Front 30 1 1253 Front 30 2 1285 Front 32 1 1253 Front 32 2 1285 Back 18 17 294 Back 18 18 262 Back 21 17 262 Back 21 18 262 Back 8 12 226 Back 8 13 258"/>
   <property name="ViewportFollowPlayer" type="bool" value="true"/>
-  <property name="Warp" value="15 28 Edds_world_Eddsworld_Village  20 11"/>
+  <property name="Warp" value="15 28 EddsWorld_Eddsworld_Village 20 11 16 28 EddsWorld_Eddsworld_Village 20 11"/>
+  <property name="WindowLight" value="15 1 2 15 2 2 30 1 2 30 2 2 32 1 2 32 2 2 5 9 2 5 10 2 8 9 2 8 10 2"/>
  </properties>
  <tileset firstgid="1" name="indoor" tilewidth="16" tileheight="16" tilecount="2176" columns="32">
   <image source="townInterior" width="512" height="1088"/>
@@ -58,6 +53,9 @@ Front 29 5 1253 Front 29 6 1285 Front 42 6 1222 Front 42 7 1254 Front 45 6 1222 
  <tileset firstgid="14404" name="farmhouse_tiles" tilewidth="16" tileheight="16" tilecount="264" columns="12">
   <image source="farmhouse_tiles.png" width="192" height="352"/>
  </tileset>
+ <tileset firstgid="14668" name="indoor" tilewidth="16" tileheight="16" tilecount="2176" columns="32">
+  <image source="../../../../../../../../Users/marta/Desktop/EddsValley_Main/Maps/townInterior" width="512" height="1088"/>
+ </tileset>
  <layer id="1" name="Back" width="36" height="31">
   <data encoding="csv">
 9644,12629,9644,9643,9644,9643,9643,9644,9643,9644,9643,9644,9643,9644,9643,9643,9644,9643,7076,7076,7076,9611,9612,9643,9644,9643,9644,9643,9644,9643,9643,9644,9643,9644,9643,9644,
@@ -74,7 +72,7 @@ Front 29 5 1253 Front 29 6 1285 Front 42 6 1222 Front 42 7 1254 Front 45 6 1222 
 9643,9644,9477,9642,9643,9478,9478,9478,9478,9478,9478,9479,13556,13556,13556,13556,9643,13556,13556,13556,13556,13556,13556,13556,13556,13556,13556,9644,13556,13556,13556,13556,13556,13556,9643,9644,
 9611,9612,9674,9674,9674,9606,9674,9674,9606,9674,9674,9676,13572,13572,13572,13572,9611,13572,13572,13572,13572,13572,13572,13572,13572,13572,13572,9612,13572,13572,13572,13572,13572,13572,9611,9612,
 9643,9644,9706,9642,9642,9642,9642,9642,9638,9642,9642,9707,9644,9643,9644,9643,9643,9643,9643,9643,9644,9643,9644,9643,9644,9643,9643,9612,9643,9644,9643,9644,9643,9644,9643,9644,
-9611,9612,9706,9642,9642,9642,9642,9642,9642,9642,9642,9642,9579,9579,9579,9579,9579,9579,9579,9579,9579,9579,9579,9579,9579,9579,9579,9612,9579,9579,9579,9610,9611,9612,9611,9612,
+9611,9612,9706,9642,9642,9642,9642,9642,9642,9642,9642,9642,9579,9579,9579,9579,9579,9579,9579,9579,9579,9579,9579,9579,9579,9579,9579,9612,9579,14867,536886623,536886655,9611,9612,9611,9612,
 9611,9642,9706,9642,9642,9642,9642,9642,9642,9642,9642,9707,9643,9644,9643,9644,9643,9644,2147498077,9643,9644,9643,9644,9643,9644,9643,9643,9644,9643,9644,9643,9644,9643,9644,9643,9644,
 9643,9642,9706,9642,9642,9642,9642,9642,9642,9642,9642,9707,9611,9612,9611,9612,9611,13556,2147489161,9612,9612,9584,9584,9585,9585,9585,9585,9585,9585,9585,9585,9585,9586,9586,9611,9612,
 9611,9642,536880588,9642,9642,9642,9642,9642,9642,9642,9642,1073751500,9643,9644,9643,9644,9643,13572,2147498077,9644,9644,9584,9584,9585,9585,9585,9585,9585,9585,9585,9585,9585,9586,9586,9612,9612,
@@ -2993,32 +2991,32 @@ Front 29 5 1253 Front 29 6 1285 Front 42 6 1222 Front 42 7 1254 Front 45 6 1222 
   </object>
   <object id="576" name="TileData" x="512" y="336" width="16" height="32">
    <properties>
-    <property name="Action" value="Dialogue Esta abierta un web llamada &quot;Stuck at Home.&quot;"/>
+    <property name="Action" value="Dialogue Está abierta una web en el navegador llamada: &quot;Stuck at Home&quot;."/>
    </properties>
   </object>
   <object id="577" name="TileData" x="272" y="192" width="16" height="16">
    <properties>
-    <property name="Action" value="Dialogue Nota de Tord. &quot;No toques los cojones si no es necesario.&quot;"/>
+    <property name="Action" value="Dialogue Nota de Tord. &quot;No toques los cojones si no es necesario&quot;."/>
    </properties>
   </object>
   <object id="578" name="TileData" x="208" y="32" width="48" height="48.5">
    <properties>
-    <property name="Action" value="Dialogue Una escultura de algun dios."/>
+    <property name="Action" value="Dialogue Una escultura de algún dios."/>
    </properties>
   </object>
   <object id="579" name="TileData" x="464" y="96" width="16" height="16">
    <properties>
-    <property name="Action" value="Dialogue Una botella de alchol tirada en el suelo."/>
+    <property name="Action" value="Dialogue Una botella de alcohol tirada en el suelo."/>
    </properties>
   </object>
   <object id="580" name="TileData" x="496" y="128" width="16" height="16">
    <properties>
-    <property name="Action" value="Dialogue Una botella de alchol tirada en el suelo."/>
+    <property name="Action" value="Dialogue Una botella de alcohol tirada en el suelo."/>
    </properties>
   </object>
   <object id="581" name="TileData" x="400" y="112" width="16" height="16">
    <properties>
-    <property name="Action" value="Dialogue Una botella de alchol tirada en el suelo."/>
+    <property name="Action" value="Dialogue Una botella de alcohol tirada en el suelo."/>
    </properties>
   </object>
   <object id="582" name="TileData" x="448" y="48" width="16" height="16">
@@ -3033,17 +3031,17 @@ Front 29 5 1253 Front 29 6 1285 Front 42 6 1222 Front 42 7 1254 Front 45 6 1222 
   </object>
   <object id="584" name="TileData" x="336" y="80" width="16" height="16">
    <properties>
-    <property name="Action" value="Dialogue Una revista con fotografias pornograficas de personajes 2D."/>
+    <property name="Action" value="Dialogue Una revista con fotografías pornográficas de personajes 2D."/>
    </properties>
   </object>
   <object id="585" name="TileData" x="464" y="64" width="16" height="16">
    <properties>
-    <property name="Action" value="Dialogue Una nota de Tord. &quot;Tom me cago en la puta LIMPIA TU CUARTO Y LO DEL PORCHE PUTO GUARRO.&quot;"/>
+    <property name="Action" value="Dialogue Una nota de Tord. &quot;Tom me cago en la puta LIMPIA TU CUARTO Y LO DEL PORCHE PUTO GUARRO&quot;."/>
    </properties>
   </object>
   <object id="586" name="TileData" x="384" y="352" width="16" height="16">
    <properties>
-    <property name="Action" value="Dialogue Una camara antigua."/>
+    <property name="Action" value="Dialogue Una cámara antigua."/>
    </properties>
   </object>
   <object id="587" name="TileData" x="160" y="144" width="16" height="48">
@@ -3056,16 +3054,6 @@ Front 29 5 1253 Front 29 6 1285 Front 42 6 1222 Front 42 7 1254 Front 45 6 1222 
     <property name="Action" value="Dialogue Unas galletas."/>
    </properties>
   </object>
-  <object id="579" name="TileData" x="128" y="144" width="16" height="32">
-   <properties>
-    <property name="Action" value="WindowLight 8 9 2 8 10 2"/>
-   </properties>
-  </object>
-  <object id="580" name="TileData" x="80" y="144" width="16" height="32">
-   <properties>
-    <property name="Action" value="WindowLight 5 9 2 5 10 2"/>
-   </properties>
-  </object>
   <object id="581" name="TileData" x="352" y="320" width="16" height="16">
    <properties>
     <property name="Action" value="Door Edd"/>
@@ -3074,21 +3062,6 @@ Front 29 5 1253 Front 29 6 1285 Front 42 6 1222 Front 42 7 1254 Front 45 6 1222 
   <object id="583" name="TileData" x="256" y="192" width="16" height="16">
    <properties>
     <property name="Action" value="Door Tord"/>
-   </properties>
-  </object>
-  <object id="584" name="TileData" x="240" y="16" width="16" height="32">
-   <properties>
-    <property name="Action" value="WindowLight 15 1 2 15 2 2"/>
-   </properties>
-  </object>
-  <object id="585" name="TileData" x="480" y="16" width="16" height="32">
-   <properties>
-    <property name="Action" value="WindowLight 30 1 2 30 2 2"/>
-   </properties>
-  </object>
-  <object id="586" name="TileData" x="512" y="16" width="16" height="32">
-   <properties>
-    <property name="Action" value="WindowLight 32 1 2 32 2 2"/>
    </properties>
   </object>
   <object id="587" name="TileData" x="304" y="128" width="16" height="16">
@@ -3103,7 +3076,7 @@ Front 29 5 1253 Front 29 6 1285 Front 42 6 1222 Front 42 7 1254 Front 45 6 1222 
   </object>
   <object id="590" name="TileData" x="48" y="48" width="32" height="32">
    <properties>
-    <property name="Action" value="Dialogue Varios aparatos que no sabes con certeza que hacen."/>
+    <property name="Action" value="Dialogue Varios aparatos que no sabes con certeza qué hacen."/>
    </properties>
   </object>
   <object id="591" name="TileData" x="64" y="96" width="16" height="16">
