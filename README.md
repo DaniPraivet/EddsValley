@@ -7,7 +7,7 @@ Mod de Stardew Valley que introduce a los personajes de la web-serie Eddsworld; 
 </p>
 
 
-## Autores
+<img src="https://github.com/Martiitale/EddsValley/blob/main/GUIDE%20for%20his%20likes%20and%20dislikes/Authors.png?raw=true">
 
 - [@Martiitale](https://martiitale.carrd.co/)
 - [@DaniPraivet](https://github.com/DaniPraivet)
