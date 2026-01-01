@@ -1,0 +1,31 @@
+{
+  "Format": "1.0",
+  "Quests": [
+    {
+      "Name": "sardine",
+      "Type": "ItemDelivery",
+      "Title": "Pez diminuto",
+      "Description": "Me apetece comer pescado un dia de estos pero no soy capaz de pescar una sardina.",
+      "Objective": "Dale una sardina a Tom",
+      "DaysLeft": 5,
+      "Reward": 60,
+      "RewardType": "Money",
+      "Cancelable": true,
+      "Trigger": "Tom 131",
+      "ReactionText": "Gracias @, no pensaba que alguien aceptaria una petición tan absurda.",
+      "FriendshipGain": {
+        "Tom": 100
+      }
+    }
+  ],
+  "Offers": [
+    {
+      "QuestName": "Pez diminuto",
+      "OfferedBy": "Bulletinboard",
+      "When": {
+        "DaysOfWeek": "Monday Thursday Friday",
+        "Seasons": "spring fall"
+      }
+    }
+  ]
+}
