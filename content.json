@@ -108,10 +108,28 @@
          "FromFile":"assets/img/spritesheet.png"
       },
       {
+         "LogName":"NPC Beach Sprite",
+         "Action":"Load",
+         "Target":"Characters/Tom",
+         "FromFile":"assets/img/spritesheet-winter.png",
+         "When": {
+            "Season": "winter"
+         }
+      },
+      {
          "LogName":"NPC Portrait",
          "Action":"Load",
          "Target":"Portraits/Tom",
          "FromFile":"assets/img/portrait.png"
+      },
+      {
+         "LogName": "NPC Portrait Winter",
+         "Action":"Load",
+         "Target":"Portraits/Tom",
+         "FromFile":"assets/img/portrait-Winter.png",
+         "When": {
+            "Season": "winter"
+         }
       },
       {
          "LogName":"Schedule",
