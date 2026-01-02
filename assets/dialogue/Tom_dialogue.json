@@ -149,7 +149,7 @@
    "Beach":"Tomándote un descanso, ¿no?$0",
    "Saloon6":"¿Un día duro, no?$1#Píllate una cerveza, aquí son las mejores que he probado.$1",
    "Saloon":"Siempre entra bien después de un día duro.$1",
-   "Forest":"Hay veces que quieres estar... solo.$0#$b#Pero no molestas, ${tranquilo^tranquila}.$1",
+   "Forest":"Hay veces que quieres estar... solo.$0#$b#Pero no molestas, {tranquilo^tranquila}.$1",
    "LeahHouse":"Me he comprado un cojón y medio.$1",
    "FishShop":"Necesitaba un poco de cebo y, de paso, ayudo a Willy.$2#$b#Al pobre no le va muy bien el negocio.$2",
    "Town_46_32":"%Tom está demasiado concentrado para responderte.$0",
