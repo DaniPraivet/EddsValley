@@ -9,7 +9,6 @@
                "BirthSeason":"Spring",
                "BirthDay":4,
                "HomeRegion":"Other",
-               "Language":"Default",
                "Gender":"Male",
                "Age":"Adult",
                "Manner":"Rude",
@@ -17,35 +16,7 @@
                "Optimism":"Negative",
                "CanBeRomanced":"True",
                "IntroductionsQuest":"False",
-               "SpouseRoom":{
-                  "MapAsset":""
-               },
-               "SpousePatio":{
-                  "MapAsset":"",
-                  "SpriteAnimationFrames":[
-                     [
-                        16,
-                        500
-                     ],
-                     [
-                        17,
-                        500
-                     ],
-                     [
-                        18,
-                        500
-                     ],
-                     [
-                        19,
-                        500
-                     ],
-                     [
-                        20,
-                        500
-                     ]
-                  ]
-               },
-               "WinterStarGifts":[],
+               "SpouseRoom":{ "MapAsset":"Maps/Tom_spouseRoom"},
                "Home":[
                   {
                      "Id":"Default",
