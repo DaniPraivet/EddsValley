@@ -30,6 +30,15 @@
                     "Delimiter": "/"
                 }
             ]
+        },
+        {
+            "LogName": "Tom Luau Festival Dialogue",
+            "Action": "EditData",
+            "Target": "Data/Festivals/summer11",
+            "Entries": {
+                "Tom": "Qué pocas ganas de hablar con la gente.$0# Bueno, al menos Abigail me entiende.$1",   
+                "Tom_spouse": "Un año de estos alguien pondrá algo asqueroso en la sopa y nos tendremos que hacer los sorprendidos de que sepa horrible.$1"
+            }
         }
     ]
 }

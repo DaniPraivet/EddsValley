@@ -30,6 +30,15 @@
                     "Delimiter": "/"
                 }
             ]
+        },
+        {
+            "LogName": "Tom Festival of Ice Dialogue",
+            "Action": "EditData",
+            "Target": "Data/Festivals/winter8",
+            "Entries": {
+                "Tom": "Todo esto del hielo me pone nervioso.$0#$b#Frío, gente gritando, y alguien seguro se va a caer.$1#$b#No sé cómo lo disfrutan tanto.$1",
+                "Tom_spouse": "No es mi tipo de festival, @.$1#$b#Quiero patinar contigo.$4"
+            }
         }
     ]
 }

@@ -19,6 +19,15 @@
                     "Delimiter": "/"
                 }
             ]
+        },
+        {
+            "LogName": "Tom Feast of the Winter Star Dialogue",
+            "Action": "EditData",
+            "Target": "Data/Festivals/winter25",
+            "Entries": {
+                "Tom": "Hay demasiada comida para un solo salón.$0#$b#Y demasiada gente fingiendo que no quiere repetir.$1",
+                "Tom_spouse": "Nunca fui muy fan de estas celebraciones.$7#$b#Pero ahora tienen sentido.$1#$b#Casa, calor, comida…$1#$b#Y tú.$1"
+            }
         }
     ]
 }

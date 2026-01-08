@@ -1,15 +1,6 @@
 {
     "Changes": [
         {
-            "LogName": "Tom Egg Festival Dialogue",
-            "Action": "EditData",
-            "Target": "Data/Festivals/spring13",
-            "Entries": {
-                "Tom": "¿Cómo estás, @? No quiero competir con los niños por unos huevos, pero sé de alguien que está más que encantado.$1",
-                "Tom_spouse": "La última vez no quería competir.$1#Quizás este año cambio de opinión.$1"
-            }
-        },
-        {
             "LogName": "Tom Desert Festival Dialogue",
             "Action": "EditData",
             "Target": "Data/Festivals/spring15",
@@ -36,24 +27,8 @@
                 "Tom_spouse": "¿Quieres que nos llevemos un camello como recuerdo a casa?$1"
             }
         },
-        {
-            "LogName": "Tom Flower Festival Dialogue",
-            "Action": "EditData",
-            "Target": "Data/Festivals/spring24",
-            "Entries": {
-                "Tom": "Las flores son bonitas, supongo...$1#Aunque no entiendo muy bien para qué sirven.$0",
-                "Tom_spouse": "¿Qué flores prefieres? No es por nada en específico, pero tú dímelo aun así..$4"
-            }
-        },
-        {
-            "LogName": "Tom Luau Festival Dialogue",
-            "Action": "EditData",
-            "Target": "Data/Festivals/summer11",
-            "Entries": {
-                "Tom": "Qué pocas ganas de hablar con la gente.$0# Bueno, al menos Abigail me entiende.$1",   
-                "Tom_spouse": "Un año de estos alguien pondrá algo asqueroso en la sopa y nos tendremos que hacer los sorprendidos de que sepa horrible.$1"
-            }
-        },
+        
+        
         {
             "LogName": "Tom Trout Derby Dialogue",
             "Action": "EditData",
@@ -72,42 +47,10 @@
                 "Tom_spouse": "Un día de estos, seré capaz de pescar una ballena…$0#Otra vez...$1"
             }
         },
-        {
-            "LogName": "Tom Dance of the Moonlight Jellies Dialogue",
-            "Action": "EditData",
-            "Target": "Data/Festivals/summer28",
-            "Entries": {
-                "Tom": "Ver las medusas flotar se me hace raro. Es como si me hipnotizaran.$1",
-                "Tom_spouse": "Su brillo es precioso.$1#Como tus ojos.$4#¿Qué pasa? A veces soy cariñoso, aunque creas que no.$1"
-            }
-        },
-        {
-            "LogName": "Tom Stardew Valley Fair Dialogue",
-            "Action": "EditData",
-            "Target": "Data/Festivals/fall16",
-            "Entries": {
-                "Tom": "Madre mía, cuánta gente hay…$2#Pero al menos hay menos niños gritones por aqui.$1",
-                "Tom_spouse": "No soy muy fan de las multitudes, @.$1#$b#Demasiado ruido, demasiada gente.$1#$b#Pero venir contigo lo hace bastante más soportable.$1#$b#Supongo que así hasta me gusta un poco.$1"
-            }
-        },
-        {
-            "LogName": "Tom Spirit's Eve Dialogue",
-            "Action": "EditData",
-            "Target": "Data/Festivals/fall27",
-            "Entries": {
-                "Tom": "Casi me da un paro cardíaco con ese televisor.$8#$b#Y eso que ya sabía que estaba ahí.$8#$b#¿Esto?$9#$b#Me gusta disfrazarme. Nadie espera nada de ti si llevas un disfraz.$9",
-                "Tom_spouse": "Si algo te asusta, quédate cerca mío, @.$1#$b#No me molesta.$1#$b#Además, con tanta gente rara alrededor…$7#$b#Prefiero asegurarme de que estés bien.$1"
-            }
-        },
-        {
-            "LogName": "Tom Festival of Ice Dialogue",
-            "Action": "EditData",
-            "Target": "Data/Festivals/winter8",
-            "Entries": {
-                "Tom": "Todo esto del hielo me pone nervioso.$0#$b#Frío, gente gritando, y alguien seguro se va a caer.$1#$b#No sé cómo lo disfrutan tanto.$1",
-                "Tom_spouse": "No es mi tipo de festival, @.$1#$b#Quiero patinar contigo.$4"
-            }
-        },
+        
+        
+        
+        
         {
             "LogName": "Tom SquidFest Dialogue",
             "Action": "EditData",
@@ -151,15 +94,6 @@
             "Entries": {
                 "Tom": "Último día, por fin.$1#$b#No estuvo tan mal… pero tampoco lo voy a extrañar.$1",
                 "Tom_spouse": "Último día.$1#$b#Un poco de pena, en realidad.$1#$b#No por el mercado…$1#$b#Sino porque estos momentos contigo se pasan rápido.$1"
-            }
-        },
-        {
-            "LogName": "Tom Feast of the Winter Star Dialogue",
-            "Action": "EditData",
-            "Target": "Data/Festivals/winter25",
-            "Entries": {
-                "Tom": "Hay demasiada comida para un solo salón.$0#$b#Y demasiada gente fingiendo que no quiere repetir.$1",
-                "Tom_spouse": "Nunca fui muy fan de estas celebraciones.$7#$b#Pero ahora tienen sentido.$1#$b#Casa, calor, comida…$1#$b#Y tú.$1"
             }
         }
     ]

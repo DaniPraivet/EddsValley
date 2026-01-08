@@ -30,6 +30,15 @@
                     "Delimiter": "/"
                 }
             ]
+        },
+        {
+            "LogName": "Tom Dance of the Moonlight Jellies Dialogue",
+            "Action": "EditData",
+            "Target": "Data/Festivals/summer28",
+            "Entries": {
+                "Tom": "Ver las medusas flotar se me hace raro. Es como si me hipnotizaran.$1",
+                "Tom_spouse": "Su brillo es precioso.$1#Como tus ojos.$4#¿Qué pasa? A veces soy cariñoso, aunque creas que no.$1"
+            }
         }
     ]
 }

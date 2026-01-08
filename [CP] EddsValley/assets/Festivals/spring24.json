@@ -30,6 +30,15 @@
                     "Delimiter": "/"
                 }
             ]
+        },
+        {
+            "LogName": "Tom Flower Festival Dialogue",
+            "Action": "EditData",
+            "Target": "Data/Festivals/spring24",
+            "Entries": {
+                "Tom": "Las flores son bonitas, supongo...$1#Aunque no entiendo muy bien para qué sirven.$0",
+                "Tom_spouse": "¿Qué flores prefieres? No es por nada en específico, pero tú dímelo aun así..$4"
+            }
         }
     ]
 }

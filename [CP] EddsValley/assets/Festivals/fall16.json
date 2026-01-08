@@ -30,6 +30,15 @@
                     "Delimiter": "/"
                 }
             ]
+        },
+        {
+            "LogName": "Tom Stardew Valley Fair Dialogue",
+            "Action": "EditData",
+            "Target": "Data/Festivals/fall16",
+            "Entries": {
+                "Tom": "Madre mía, cuánta gente hay…$2#Pero al menos hay menos niños gritones por aqui.$1",
+                "Tom_spouse": "No soy muy fan de las multitudes, @.$1#$b#Demasiado ruido, demasiada gente.$1#$b#Pero venir contigo lo hace bastante más soportable.$1#$b#Supongo que así hasta me gusta un poco.$1"
+            }
         }
     ]
 }

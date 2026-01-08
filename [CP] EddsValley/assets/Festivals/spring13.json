@@ -30,6 +30,15 @@
                     "Delimiter": "/"
                 }
             ]
+        },
+        {
+            "LogName": "Tom Egg Festival Dialogue",
+            "Action": "EditData",
+            "Target": "Data/Festivals/spring13",
+            "Entries": {
+                "Tom": "¿Cómo estás, @? No quiero competir con los niños por unos huevos, pero sé de alguien que está más que encantado.$1",
+                "Tom_spouse": "La última vez no quería competir.$1#Quizás este año cambio de opinión.$1"
+            }
         }
     ]
 }

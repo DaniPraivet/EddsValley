@@ -18,6 +18,15 @@
                     "Delimiter": "/"
                 }
             ]
+        },
+        {
+            "LogName": "Tom Spirit's Eve Dialogue",
+            "Action": "EditData",
+            "Target": "Data/Festivals/fall27",
+            "Entries": {
+                "Tom": "Casi me da un paro cardíaco con ese televisor.$8#$b#Y eso que ya sabía que estaba ahí.$8#$b#¿Esto?$9#$b#Me gusta disfrazarme. Nadie espera nada de ti si llevas un disfraz.$9",
+                "Tom_spouse": "Si algo te asusta, quédate cerca mío, @.$1#$b#No me molesta.$1#$b#Además, con tanta gente rara alrededor…$7#$b#Prefiero asegurarme de que estés bien.$1"
+            }
         }
     ]
 }
