@@ -5,7 +5,7 @@
       "Target": "Data/MoviesReactions",
       "Entries": {
         "Tom": {
-          "NPCName": "Tom",
+          "NPCName": "Tord",
           "Reactions": [
             {
               "Tag": "*",
@@ -15,17 +15,17 @@
                 "BeforeMovie": {
                   "ResponsePoint": null,
                   "Script": null,
-                  "Text": "Hace rato que no venía al cine.$0#$b#Matt insistió bastante.$1"
+                  "Text": "¿Cuánto dura?$0#$b#Como salga un musical me voy en mitad de la película.$3"
                 },
                 "DuringMovie": {
                   "ResponsePoint": null,
                   "Script": null,
-                  "Text": "(Tom mira la pantalla en silencio, apenas reaccionando.)$0"
+                  "Text": "¿Cuánto dura?$0#$b#Como salga un musical me voy en mitad de la película.$3"
                 },
                 "AfterMovie": {
                   "ResponsePoint": null,
                   "Script": null,
-                  "Text": "Bueno.$0#$b#No fue una pérdida total de tiempo.$1"
+                  "Text": "He visto cosas bastante peores.$1#$b#También bastante mejores.$0#$b#Supongo que no ha sido perder completamente el tiempo."
                 }
               },
               "Id": "reaction_0"
@@ -38,17 +38,17 @@
                 "BeforeMovie": {
                   "ResponsePoint": null,
                   "Script": null,
-                  "Text": "Edd habló tanto de esta película que me cansé antes de empezar.$0#$b#Veamos.$1"
+                  "Text": "Dicen que esta tiene mucha acción.$1#$b#Si el protagonista toma una decisión estúpida cada cinco minutos, me voy a reír muchísimo."
                 },
                 "DuringMovie": {
                   "ResponsePoint": null,
                   "Script": null,
-                  "Text": "…$0#$b#Ok, eso no me lo esperaba.$2"
+                  "Text": "(Tord sonríe durante toda la pelicula)"
                 },
                 "AfterMovie": {
                   "ResponsePoint": null,
                   "Script": null,
-                  "Text": "No estuvo mal.$0#$b#Pero no pienso verla otra vez.$1"
+                  "Text": "Vale...estuvo bastante bien.$1#."
                 }
               },
               "Id": "reaction_1"
@@ -61,17 +61,17 @@
                 "BeforeMovie": {
                   "ResponsePoint": null,
                   "Script": null,
-                  "Text": "Matt diría que esta es \"para toda la familia\".$0#$b#Nunca confíes en eso.$1"
+                  "Text": "Matt diría que esto es 'cine para toda la familia'.$3#$b#Matt también piensa que un sombrero de cowboy pega con todo, así que no sé si fiarme."
                 },
                 "DuringMovie": {
                   "ResponsePoint": null,
                   "Script": null,
-                  "Text": "(Tom se reclina un poco en el asiento, más tranquilo.)$0"
+                  "Text": "(Tord resopla... pero acaba soltando una risa cuando nadie le mira.)$4"
                 },
                 "AfterMovie": {
                   "ResponsePoint": null,
                   "Script": null,
-                  "Text": "Supongo que estuvo bien.$0#$b#Nadie gritó, eso suma.$1"
+                  "Text": "No esperaba reírme.$0#$b#Si alguien pregunta, diré que fue por otra cosa."
                 }
               },
               "Id": "reaction_2"
@@ -84,17 +84,17 @@
                 "BeforeMovie": {
                   "ResponsePoint": null,
                   "Script": null,
-                  "Text": "Dicen que es graciosa.$0#$b#Eso me pone nervioso.$1"
+                  "Text": "Como no tenga gracia, voy a empezar a criticar cada chiste en voz alta.$1"
                 },
                 "DuringMovie": {
                   "ResponsePoint": null,
                   "Script": null,
-                  "Text": "…$0#$b#Ok, eso sí fue estúpido.$1"
+                  "Text": "(Tord intenta no reírse... fracasa estrepitosamente.)$6"
                 },
                 "AfterMovie": {
                   "ResponsePoint": null,
                   "Script": null,
-                  "Text": "Me reí más de lo que esperaba.$0#$b#No se lo digas a nadie.$1"
+                  "Text": "Vale... admito que esa escena fue buenísima.$1#$b#La del cubo también.$1#$b#No vuelvas a mencionarlo."
                 }
               },
               "Id": "reaction_3"
@@ -107,17 +107,17 @@
                 "BeforeMovie": {
                   "ResponsePoint": null,
                   "Script": null,
-                  "Text": "No soy fan del terror.$0#$b#Pero ya estamos aquí.$1"
+                  "Text": "Las películas de terror siempre hacen lo mismo.$0#$b#Apagan las luces, alguien dice '¿hay alguien ahí?'... y ya sabes cómo acaba."
                 },
                 "DuringMovie": {
                   "ResponsePoint": null,
                   "Script": null,
-                  "Text": "…$0#$b#Eso fue innecesario.$2"
+                  "Text": "(Tord pone los ojos en blanco cuando el protagonista entra solo en un sótano oscuro.)$3"
                 },
                 "AfterMovie": {
                   "ResponsePoint": null,
                   "Script": null,
-                  "Text": "No voy a dormir bien hoy.$0#$b#Gracias por eso.$1"
+                  "Text": "Si yo hubiera estado ahí, la película duraba quince minutos.$1#$b#La mitad del reparto toma unas decisiones ridículas."
                 }
               },
               "Id": "reaction_4"
@@ -130,13 +130,13 @@
                 "BeforeMovie": {
                   "ResponsePoint": null,
                   "Script": null,
-                  "Text": "Tord dijo que esta era empalagosa.$0#$b#Probablemente tenga razón.$1"
+                  "Text": "¿Una romántica?$3#$b#Como salga alguien corriendo bajo la lluvia por amor, me levanto y me voy."
                 },
                 "DuringMovie": null,
                 "AfterMovie": {
                   "ResponsePoint": null,
                   "Script": null,
-                  "Text": "Bueno.$0#$b#No fue tan horrible.$1"
+                  "Text": "...Vale.$4#$b#No estaba tan mal.$0#$b#Pero si se lo cuentas a Tom diré que mientes."
                 }
               },
               "Id": "reaction_5"
@@ -149,13 +149,13 @@
                 "BeforeMovie": {
                   "ResponsePoint": null,
                   "Script": null,
-                  "Text": "Escuché cosas decentes de esta.$0#$b#Eso ya es mucho.$1"
+                  "Text": "He oído hablar bien de esta.$1#$b#Eso normalmente significa que alguien exageró... ya veremos."
                 },
                 "DuringMovie": null,
                 "AfterMovie": {
                   "ResponsePoint": null,
                   "Script": null,
-                  "Text": "Sí.$0#$b#Me gustó.$1"
+                  "Text": "Esta sí la volvería a ver.$1#$b#Tiene un par de escenas que merecen la pena."
                 }
               },
               "Id": "reaction_6"
@@ -168,17 +168,17 @@
                 "BeforeMovie": {
                   "ResponsePoint": null,
                   "Script": null,
-                  "Text": "No habría elegido esta.$0#$b#Pero confío en ti.$1"
+                  "Text": "No la habría escogido yo.$3#$b#Pero ya que estamos aquí... sorpréndeme."
                 },
                 "DuringMovie": {
                   "ResponsePoint": null,
                   "Script": null,
-                  "Text": "…$0#$b#Ajá.$2"
+                  "Text": "(Tord mira la pantalla con cara de '¿en serio?').$3"
                 },
                 "AfterMovie": {
                   "ResponsePoint": null,
                   "Script": null,
-                  "Text": "No fue lo mío.$0#$b#Pero valió la pena venir contigo.$1"
+                  "Text": "Bueno... ahora entiendo por qué las críticas eran malas.$1#$b#Al menos hemos salido de casa."
                 }
               },
               "Id": "reaction_7"
@@ -191,7 +191,7 @@
                 "BeforeMovie": {
                   "ResponsePoint": null,
                   "Script": null,
-                  "Text": "Esta ya la vi con Matt.$0#$b#Habló durante toda la película.$1"
+                  "Text": "Ya vi esta hace tiempo.$0#$b#Matt no paró de comentar cada escena durante toda la película.$3#$b#Casi fue peor que la propia película."
                 },
                 "DuringMovie": null,
                 "AfterMovie": null
@@ -206,7 +206,7 @@
                 "BeforeMovie": {
                   "ResponsePoint": null,
                   "Script": null,
-                  "Text": "La vi antes con Edd.$0#$b#Se rió en partes rarísimas.$1"
+                  "Text": "Ya la había visto.$1#$b#Creo que fue con Tom...#$b#No dijo ni diez palabras en toda la sesión. Un récord incluso para él.$0"
                 },
                 "DuringMovie": null,
                 "AfterMovie": null
@@ -221,7 +221,7 @@
                 "BeforeMovie": {
                   "ResponsePoint": null,
                   "Script": null,
-                  "Text": "Sí, esta ya la vi.$0#$b#No mejoró.$1"
+                  "Text": "¿Otra vez esta?$3#$b#Bueno... quizá una segunda oportunidad la mejore.#$b#Aunque lo dudo bastante."
                 },
                 "DuringMovie": null,
                 "AfterMovie": null
